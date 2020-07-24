@@ -19,9 +19,9 @@ validpgpkeys=('8460980B2B79786DE0C7FCC83FD8F43C2BB3C478') # Hisham Muhammad <h@h
 source=("$pkgname-2.2.0.tar.gz"
         '0001-fix-option-string.patch'
         '0002-gcc10.patch')
-sha256sums=('SKIP'
-            'SKIP'
-            'SKIP')
+sha256sums=('d9d6826f10ce3887950d709b53ee1d8c1849a70fa38e91d5896ad8cbc6ba3c57'
+            'e0ea3a91dfbc7f8c516a19e0d8890314845e768ea4132dfaa49c4d4e89ec10ca'
+            'f715a87cffc6375eb3915530f4b27455b00b9324b8ee9168c0b983ba2a536938')
 prepare() {
   cd "$pkgname-$pkgver"
 
