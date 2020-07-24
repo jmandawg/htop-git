@@ -16,7 +16,7 @@ optdepends=('lsof: show files opened by a process'
             'strace: attach to a running process')
 options=('!emptydirs' debug)
 validpgpkeys=('8460980B2B79786DE0C7FCC83FD8F43C2BB3C478') # Hisham Muhammad <h@hisham.hm>
-source=("$pkgname-$pkgver.tar.gz"
+source=("$pkgname-2.2.0.tar.gz"
         '0001-fix-option-string.patch'
         '0002-gcc10.patch')
 
